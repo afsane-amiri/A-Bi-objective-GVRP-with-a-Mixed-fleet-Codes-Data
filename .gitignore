@@ -1,0 +1,16 @@
+# C++ build artifacts
+*.exe
+*.obj
+*.pdb
+*.ilk
+
+# Build directories
+build/
+out/
+
+# Generated solver results
+results/
+
+# Python cache
+__pycache__/
+*.pyc

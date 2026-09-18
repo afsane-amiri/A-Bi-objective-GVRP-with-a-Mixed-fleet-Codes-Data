@@ -2987,7 +2987,7 @@ void NoiseCustomerInsertion3(){
 void InitialSolutionI(int index1, int index2, int index3, int index4){
 	int i, j, k, l, m, n, o, p, Minimum, BreakNode, SelectedRoute;
 
-	sprintf_s(OutName, "%s%d-%d-%d-%d", "C:\\Afsane\\Research\\Paper 2\\Results\\Result", index1, index2, index3, index4);  /////// ?????????
+	sprintf_s(OutName, "%s%d-%d-%d-%d", "results\\Result", index1, index2, index3, index4);  /////// ?????????
 	strcat_s(OutName, ".txt");
 	errno_t err = fopen_s(&Out, OutName, "w");
 
@@ -4582,7 +4582,7 @@ void main (void) {
 			for (k = 1; k <= 1; k++) {//1-3         
 				for (l = 1; l <= 1; l++) {//1- 29 2-35 3 -28
 					//No+=389; // 124*(36) 1789*(37) 1789*(42) 389*(38) (124/389/108/23)
-					sprintf_s(FileName, "%s%d-%d-%d-%d", "C:\\Afsane\\Research\\Paper 2\\Samples\\Sample", i, j, k, l);
+					sprintf_s(FileName, "%s%d-%d-%d-%d", "data\\Sample", i, j, k, l);
 					printf_s("%s\n", FileName);
 					strcat_s(FileName, ".txt");
 					errno_t err = fopen_s(&Input, FileName, "r");
