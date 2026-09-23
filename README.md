@@ -1,1 +1,1 @@
-# ALNS
+# Development note: This repository contains the original C++ implementation developed during my PhD research. The original research code is preserved in original/ for reproducibility, while a refactored implementation with improved modularity, maintainability, and modern C++ practices is currently under development in refactored/.
